@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Основная тема -->
+    <style name="Theme.CookMate" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1F3A33</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#1F3A33</item>
+    </style>
+
+    <!-- Внешний вид подсказки (hint) -->
+    <style name="WhiteHintAppearance" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColorHint">@color/white_hint_color</item>
+    </style>
+
+    <!-- Внешний вид полей ввода -->
+    <style name="CustomOutlinedTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeColor">@color/white_stroke_color</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="hintTextColor">@color/white_hint_color</item>
+        <item name="hintTextAppearance">@style/WhiteHintAppearance</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+    </style>
+
+</resources>
